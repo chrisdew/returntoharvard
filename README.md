@@ -1,7 +1,7 @@
 # Return to Harvard
 A manifesto for returning to known personal computing - just an idea to pick holes in.
 
-## What did we lose when we went from 8-bit home computers and consoles to PCs with hard disks?
+## What did we lose when we went from 80's 8-bit home computers and consoles to 90's PCs with hard disks?
 
 - Operating Systems (OK, BASICs) that would boot immediately, and more importantly, identically, every time power was applied.
 - OSs on ROM, which could not be modified by any form of software bug.
