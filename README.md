@@ -25,11 +25,13 @@ This eliminates the majority of attack vectors.
 
 ## The RtH Machine
 
-The RtH Machine has a CPU with two, distinct, read-only sources of data, the Kernel Storage Device and Application Storage Devices.
+The RtH Machine has a CPU with two, distinct, read-only sources of instructions, the Kernel Storage Device and Application Storage Devices.
 
 These are not 80's-style ROM chips.  They are flash storage devices to which the RtH CPU cannot physically write, heavily cached with on-device RAM and separated CPU caches.
 
 The RtHM has conventional Random Access Memory.
+
+The RtH CPU physically cannot execute instructions from RAM.
 
 The RtHM has multiple, removable, writeable storage devices, WSDs.  These have a physical write-enable button which makes them writable for a short period of time.
 
@@ -41,6 +43,10 @@ Software developers will use a dual ported device which plugs in as both a WSD a
 
 Data centres, where multiple servers need to have ASDs updated, can use special Network Writeable ASDs.
 
+## Implementatio Plans
+
+- Perhaps a RISC-V core could be modified to this design and implemented on an FPGA?
+- Perhaps 100's of 74xxx logic chips?
 
 ## Thoughts?
 
