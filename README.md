@@ -50,7 +50,7 @@ Data centres, where multiple servers need to have ASDs updated, can use special 
 
 ## Source of this Madness?
 
-I'm lucky enough to write code for Harvard-Architecture AVR chips at work.  It's so much more fun than writing code for Android - the target doesn't keep moving and mutating before your eyes.
+I'm lucky enough to write code for Harvard-Architecture AVR chips at work.  It's so much more fun than writing code for Android. The platform doesn't keep moving and mutating before your eyes.
 
 ## Thoughts?
 
