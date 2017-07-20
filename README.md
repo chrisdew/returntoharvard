@@ -9,9 +9,11 @@ A manifesto for returning to known personal computing - just something in which 
 - Applications and games on ROM - no modification possible.
 - Data on tape - software could only modify your data when you physically pressed record.
 
-I do recognise that we gained one or two minor things too, but we should be striving for the penny and the bun.
+I do recognise that we gained one or two minor things since the 80s, but we should be striving for the penny and the bun.
 
-## How can we get these advantages and more back?
+The current state of computing, especially Android (where I caught the built-in keyboard App sending my data abroad) is not acceptable.
+
+## How can we get these benefits back?
 
 Modern computers use a Modified-Harvard architecture, just an optimised version of Von Neumann architecture, where programs and data exist in the same RAM.  OSs, applications and user data are likewise saved on the same disk.
 
@@ -25,9 +27,9 @@ This eliminates the majority of attack vectors.
 
 The RtH Machine has a CPU with two, distinct, read-only sources of data, the Kernel Storage Device and Application Storage Devices.
 
-These are not 80's-style ROM chips.  They are flash storage devices to which the RtH CPU cannot physically write, heavily cached in on-device RAM and inside the CPU.
+These are not 80's-style ROM chips.  They are flash storage devices to which the RtH CPU cannot physically write, heavily cached with on-device RAM and separated CPU caches.
 
-The RtHM has Random Access Memory.
+The RtHM has conventional Random Access Memory.
 
 The RtHM has multiple, removable, writeable storage devices, WSDs.  These have a physical write-enable button which makes them writable for a short period of time.
 
