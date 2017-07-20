@@ -15,7 +15,7 @@ The current state of computing, especially Android (where I caught the built-in 
 
 ## How can we get these benefits back?
 
-Modern computers use a <a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture">Von Neumann Architecture</a>, where programs and data exist in the same RAM.  OSs, applications and user data are likewise saved on the same disk.
+Modern computers use the <a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture">Von Neumann Architecture</a>, where programs and data exist in the same RAM.  OSs, applications and user data are likewise saved on the same disk.
 
 This used to be the only affordable way of doing things when computers' performance was limited and hard disks were expensive.
 
