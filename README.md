@@ -52,7 +52,7 @@ Data centres, where multiple servers need to have ASDs updated, can use special 
 
 I'm lucky enough to write code for Harvard-Architecture AVR chips at work.  It's so much more fun than writing code for Android. The platform doesn't keep moving and mutating before your eyes.
 
-I know the title is slightly misleading - 80's CPU were also Von Neumann architecture, most Harvard Architure machines were built in earlier decades.
+I know the title is slightly misleading - 80's CPU were also Von Neumann architecture, most Harvard Architure machines were built in earlier decades.  Harvard Architecture is the solution which I'm proposing, not what we lost in the 90's.
 
 ## Thoughts?
 
