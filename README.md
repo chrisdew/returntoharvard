@@ -43,10 +43,14 @@ Software developers will use a dual ported device which plugs in as both a WSD a
 
 Data centres, where multiple servers need to have ASDs updated, can use special Network Writeable ASDs.
 
-## Implementatio Plans
+## Implementation Plans
 
 - Perhaps a RISC-V core could be modified to this design and implemented on an FPGA?
 - Perhaps 100's of 74xxx logic chips?
+
+## Source of this Madness?
+
+I'm lucky enough to have to write code for Harvard-Architecture AVR chips at work.  It's so much more fun than writing code for Android - the target doesn't keep moving and mutating before your eyes.
 
 ## Thoughts?
 
