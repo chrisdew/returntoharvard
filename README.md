@@ -11,7 +11,7 @@ A manifesto for returning to known personal computing - just an idea to pick hol
 
 I do recognise that we gained one or two minor things since the 80s, but we should be striving for the penny and the bun.
 
-The current state of computing, especially Android (where I caught the built-in keyboard App sending my data abroad) is not acceptable.
+The current state of computing, especially Android (where I caught the manfacturer-installed keyboard app trying to send my data abroad) is not acceptable.
 
 ## How can we get these benefits back?
 
