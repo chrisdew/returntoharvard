@@ -27,7 +27,7 @@ This eliminates the majority of attack vectors.
 
 The RtH Machine has a CPU with two, distinct, read-only sources of instructions, the Kernel Storage Device and Application Storage Devices.
 
-These are not 80's-style ROM chips.  They are flash storage devices to which the RtH CPU cannot physically write, heavily cached with on-device RAM and separated CPU caches.
+These are not 80's-style ROM chips.  They are flash storage devices to which the RtH CPU cannot physically write.  Their content is cached in separated CPU kernel and application instruction caches.
 
 The RtHM has conventional Random Access Memory.
 
