@@ -1,4 +1,45 @@
 # Return to Harvard
-A manifesto for returning to reliable computing.
+A manifesto for returning to known personal computing - just something in which to pick holes.
 
 ## What did we lose when we went from 8-bit home computers and consoles to PCs with hard disks?
+
+- Operating Systems (OK, BASICs) that would boot immediately, and more importantly, identically, every time power was applied.
+- OSs on ROM, which could not be modified by any form of software bug.
+- Applications on tape - software bugs could not permanently modify applications without the user pressing "record".
+- Applications and games on ROM - no modification possible.
+- Data on tape - software could only modify your data when you physically pressed record.
+
+I do recognise that we gained one or two minor things too, but we should be striving for the penny and the bun.
+
+## How can we get these advantages and more back?
+
+Modern computers use a Modified-Harvard architecture, just an optimised version of Von Neumann architecture, where programs and data exist in the same RAM.  OSs, applications and user data are likewise saved on the same disk.
+
+This used to be the only affordable way of doing things when computers' performance was limited and hard disks were expensive.
+
+A pure Hardvard architecture splits code from data.
+
+This eliminates the majority of attack vectors.
+
+## The RtH Machine
+
+The RtH Machine has a CPU with two, distinct, read-only sources of data, the Kernel Storage Device and Application Storage Devices.
+
+These are not 80's-style ROM chips.  They are flash storage devices to which the RtH CPU cannot physically write, heavily cached in on-device RAM and inside the CPU.
+
+The RtHM has Random Access Memory.
+
+The RtHM has multiple, removable, writeable storage devices, WSDs.  These have a physical write-enable button which makes them writable for a short period of time.
+
+## What about Software Developers?
+
+Software developers will use a dual ported device which plugs in as both a WSD and an ASD.
+
+## What about Data Centres?
+
+Data centres, where multiple servers need to have ASDs updated, can use special Network Writeable ASDs.
+
+
+## Thoughts?
+
+Pull requests welcome...
