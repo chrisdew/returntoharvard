@@ -1,5 +1,5 @@
 # Return to Harvard
-A manifesto for returning to known personal computing - just something in which to pick holes.
+A manifesto for returning to known personal computing - just an idea to pick holes in.
 
 ## What did we lose when we went from 8-bit home computers and consoles to PCs with hard disks?
 
